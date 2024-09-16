@@ -6,6 +6,15 @@ This document provides detailed information about the RESTful API designed to ma
 ## Project Setup and Run Guide
 
 ### 1. Using IntelliJ IDEA
+1. **Open the Maven Tool Window:**:
+    - On the right-hand side of IntelliJ, you should see the “Maven” tool window. If not, go to `View` -> `Tool Windows` -> `Maven`.
+2. **Run Maven Goals:**:
+    - In the Maven tool window, expand your project and navigate to the “Lifecycle” section. Here you can run common Maven goals:
+      - `clean`: To clean the project
+      - `compile`: To compile the code
+      - `install`: To install the package into the local repository
+3. **Run Your Application:**:
+    - Run directly from `main` class
 
 ### 2. Using Bash File
 
